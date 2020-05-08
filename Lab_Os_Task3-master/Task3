@@ -1,0 +1,37 @@
+EOPSY TASK 3
+
+(Screenshot can only being seen on the doc deposed on teams)
+
+
+First Simulation :
+Parameters : 
+- Number Of processes : 2
+- Deviation : 2000 milliseconds
+- Blocking Time : 500 milliseconds 
+Results : 
+We can see in the main window that the first process called (process0) begins and being blocked at 500 millisecondsof processor time. After, the second process called (process1) begins and it is also blocked at 500 milliseconds.And this happens for each process till their total process time reach their set processor time of 2000 milliseconds. The summary-results show the description of each processes and we can see that they all do the total of 2000 milliseconds. Each of them was blocked every 500 milliseconds for a total of 3 blockings ; at 500, 1000, 1500 milliseconds.
+Screen :
+ 
+
+Second Simulation :
+Parameters : 
+- Number Of processes : 5
+- Deviation : 2000 milliseconds
+- Blocking Time : 500 milliseconds 
+- Runtime 10000 milliseconds
+Results : 
+So we have 5 processes with equal parameters that first simulation. We can see that the simulation makes running the process two by two ant wait for the ending of the two ones before begining the two next ones. But for the last one, the fifth process (process4), it is running alone till the end. For the last one we don’t see the display telling us the process is completed because it happend at 10000 milliseconds wichi s the moment when the simulation stop.And we can see that all processes ran in their entirely in the summary-result file.
+Screen :
+ 
+
+
+
+Second Simulation :
+Parameters : 
+- Number Of processes : 10
+- Deviation : 2000 milliseconds
+- Blocking Time : 500 milliseconds 
+- Runtime 10000 milliseconds
+Results : 
+Here, we have 10 processes with same parameters than before. Ten processes for a total time of 2000 milliseconds. We can see in the Summary-Processes that the 4 first processes (0.1.2.3) run correctly. The simulation time reaches the 10000 milliseconds during the running of the fifth and sixth (4.5) and they are cut off during their executions. Therefore, we can see there are cut at 1000 because 4*2000+2*1000=1000 milliseconds. And in the Summery-Result that the last running processes stops before to be locked because it runs 1000 milliseconds ans is locked just one time at 500 milliseconds.
+ 
